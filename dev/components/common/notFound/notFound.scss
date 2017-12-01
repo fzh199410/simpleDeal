@@ -1,0 +1,40 @@
+.not-found {
+    width: 700px;
+    margin-top: 330px;
+    margin-bottom: 340px;
+    margin-left: auto;
+    margin-right: auto;
+    img{
+        float: left;
+    }
+    h3{
+        color: #4c4c4c;
+        font-size: 22px;
+        font-weight: normal;
+    }
+    .list-box{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        color: #727577;
+        font-size: 14px;
+        span{
+            float: left;
+        }
+        ul{
+            margin-left: 30px;
+            float: left;
+        }
+    }
+    button {
+        margin-top: 20px;
+        margin-left: 70px;
+        width: 170px;
+        height: 50px;
+        background-color: #ed5656;
+        border: 1px solid #ed5656;
+        border-radius: 4px;
+        color: #fff;
+        font-size: 16px;
+        outline: none;
+    }
+}

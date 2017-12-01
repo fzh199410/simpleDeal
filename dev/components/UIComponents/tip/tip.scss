@@ -1,0 +1,48 @@
+@import "../defaultStyle.scss";
+@mixin tip {
+  transition: 0.5s;
+  height: 40px;
+  line-height: 40px;
+  margin-top: 10px;
+  .mt-tips-inline{
+    text-align:center;
+    border-radius:2px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    color: #666;
+    overflow:hidden;
+    background:#fff;
+    border:1px solid $iborder;
+    display: inline-block;
+    padding: 0 20px;
+  }
+  .iconfont{
+    vertical-align: middle;
+  }
+}
+.T-tip-success{
+  .iconfont{
+    color:$colorSuccess;
+  }
+  @include tip;
+}
+.T-tip-warning{
+  .iconfont{
+    color:$colorWarning;
+  }
+  @include tip;
+}
+.T-tip-error{
+  .iconfont{
+    color:$colorDanger;
+  }
+  @include tip;
+}
+
+#T-div-tips{
+  position:fixed;
+  top:0;
+  z-index: 9999;
+  width: 100%;
+  height:0;
+  text-align:center;
+}

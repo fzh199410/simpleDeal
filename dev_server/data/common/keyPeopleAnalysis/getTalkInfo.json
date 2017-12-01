@@ -1,0 +1,112 @@
+{
+  "code": 200,
+  "success": true,
+  "data": {
+    "items": [
+      {
+        "talkTime": "2017年9月11日",
+        "talkPlace": "中南海",
+        "personType": "重点对象",
+        "talkPerson": "尼玛",
+        "identifyCardId": "510902199400000000",
+        "availableContact": "12345678901",
+        "traffic": "飞机",
+        "isKnowLegal": "是",
+        "isAgreePeace": "是",
+        "attitude": "磨皮擦痒",
+        "mainTalk": {
+          "thoughtRight": {
+            "value": true,
+            "content": "不爱国 不爱党"
+          },
+          "workSituation": {
+            "value": true,
+            "content": " 失业中 "
+          },
+          "familySituation": {
+            "value": true,
+            "content": " 离异 "
+          },
+          "joinDangerous": {
+            "value": false,
+            "content": null
+          }
+        },
+        "otherTalk": {
+          "familyIncome": {
+            "value": true,
+            "content": "低保户"
+          },
+          "familyNotHarmony": {
+            "value": true,
+            "content": "离婚 父母关系不好"
+          },
+          "childDropOut": {
+            "value": true,
+            "content": " 成绩西撇 "
+          },
+          "seriousIllness": {
+            "value": true,
+            "content": " 懒癌晚期 "
+          },
+          "debts": {
+            "value": false,
+            "content": null
+          }
+        }
+      },
+      {
+        "talkTime": "2017年9月11日",
+        "talkPlace": "省厅",
+        "personType": "重点对象",
+        "talkPerson": "阿西吧",
+        "identifyCardId": "510902199400000000",
+        "availableContact": "12345678901",
+        "traffic": "飞机",
+        "isKnowLegal": "是",
+        "isAgreePeace": "是",
+        "attitude": "巴拉巴拉",
+        "mainTalk": {
+          "thoughtRight": {
+            "value": true,
+            "content": "不爱国 不爱党"
+          },
+          "workSituation": {
+            "value": true,
+            "content": " 失业中 "
+          },
+          "familySituation": {
+            "value": true,
+            "content": " 离异 "
+          },
+          "joinDangerous": {
+            "value": false,
+            "content": null
+          }
+        },
+        "otherTalk": {
+          "familyIncome": {
+            "value": true,
+            "content": "低保户"
+          },
+          "familyNotHarmony": {
+            "value": true,
+            "content": "离婚 父母关系不好"
+          },
+          "childDropOut": {
+            "value": true,
+            "content": " 成绩西撇 "
+          },
+          "seriousIllness": {
+            "value": true,
+            "content": " 懒癌晚期 "
+          },
+          "debts": {
+            "value": false,
+            "content": null
+          }
+        }
+      }
+    ]
+  }
+}

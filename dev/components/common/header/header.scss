@@ -1,0 +1,63 @@
+.main {
+    font-size: 16px ;
+    >.header {
+        width: 100%;
+        height: 98px;
+        background: #eeeeee;
+        overflow: hidden;
+        padding: 0 10em;
+
+        .logo {
+            width: 200px;
+            height: 98px;
+            display: inline-block;
+            background: url(../../../assets/images/logo.png) no-repeat;
+            background-size: contain;
+        }
+
+        .handle {
+            display: inline-block;
+            float: right;
+
+            a {
+                display: inline-block;
+                padding: 0 35px;
+                color: #000;
+                line-height: 98px;
+                font-size: 1.2em;
+                &:hover {
+                    color: #16a8f5;
+                }
+            }
+
+            .active {
+                color: #16a8f5;
+            }
+
+            .handleBtn {
+                width: 77px;
+                height: 28px;
+                line-height: 28px;
+                display: inline-block;
+                border-radius: 5px;
+                text-align: center;
+                cursor: pointer;
+            }
+
+            .registration {
+                color: #16a8f5;
+                border: 1px #16a8f5 solid;
+                margin-right: 35px;
+            }
+
+            .login {
+                color: #fff;
+                background: #368ae5;
+                border: 1px transparent solid;
+            }
+
+        }
+
+    }
+
+}

@@ -1,0 +1,107 @@
+{
+    "success": true,
+    "data": {
+        "control": [
+            {
+                "label": "一级",
+                "value": 23
+            },
+            {
+                "label": "二级",
+                "value": 60
+            },
+            {
+                "label": "三级",
+                "value": 25
+            },
+            {
+                "label": "四级",
+                "value": 18
+            }
+        ],
+        "identity": [
+            {
+                "label": "干部",
+                "value": 123
+            },
+            {
+                "label": "居民",
+                "value": 60
+            },
+            {
+                "label": "僧人",
+                "value": 25
+            },
+            {
+                "label": "商人",
+                "value": 18
+            },
+            {
+                "label": "农民",
+                "value": 12
+            },
+            {
+                "label": "学生",
+                "value": 9
+            },
+            {
+                "label": "教师",
+                "value": 2
+            },
+            {
+                "label": "其他",
+                "value": 1
+            }
+        ],
+        "important": [
+            {
+                "label": "僧尼",
+                "value": 23
+            },
+            {
+                "label": "贫困",
+                "value": 60
+            },
+            {
+                "label": "文盲",
+                "value": 25
+            },
+            {
+                "label": "人户不一",
+                "value": 18
+            },
+            {
+                "label": "涉及警情",
+                "value": 18
+            }
+        ],
+        "economic": [
+            {
+                "label": "1000-2500",
+                "value": 518
+            },
+            {
+                "label": "2500-4000",
+                "value": 209
+            },
+            {
+                "label": "4000以上",
+                "value": 130
+            }
+        ],
+        "age": [
+            {
+                "label": "0-12",
+                "value": 23
+            },
+            {
+                "label": "12-50",
+                "value": 60
+            },
+            {
+                "label": "50以上",
+                "value": 25
+            }
+        ]
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "success": true,
+    "data": {
+        "dataset|9-9": [
+            {
+                "age": null,
+                "lkzrdw": "阿坝县麦尔玛派出所",
+                "lkzrr": "夏冬",
+                "qx": 513231,
+                "sf": 510000,
+                "sz": 513200,
+                "warningnum": 0,
+                "xzpcs": "阿坝县国保大队",
+                "zdrbq": "文盲,贫困,入户不一致",
+                "zdrjg": "四川省阿坝藏族羌族自治州阿坝县麦尔玛乡亚昆玛村一组",
+                "zdrlkjb": "4",
+                "zdrmz": "藏族",
+                "zdrsfzh": "513231197708091711",
+                "zdrsr": null,
+                "zdrtx": "",
+                "zdrxb": "男",
+                "zdrxm": "洛步让",
+                "zdrzy": "牧民"
+            }
+        ],
+        "pageInfo": 999
+    }
+}

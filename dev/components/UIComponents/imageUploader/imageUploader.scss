@@ -1,0 +1,53 @@
+.T-imageUploader {
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  border: 2px solid #0e90d2;
+  position: relative;
+  & > img {
+    width: 100%;
+    height: 100%;
+  }
+  .T-imageUploader-icon {
+    color: #0e90d2;
+    width: 70%;
+    height: 70%;
+    display: inline-block;
+    position: relative;
+    left: 15%;
+    top: 15%;
+    cursor: pointer;
+  }
+  .T-imageUploader-icon:after {
+    content: '';
+    width: 100%;
+    height: 8px;
+    background-color: #0e90d2;
+    position: absolute;
+    top: 50%;
+    margin-top: -4px;
+  }
+  .T-imageUploader-icon:before {
+    content: '';
+    height: 100%;
+    width: 8px;
+    background-color: #0e90d2;
+    position: absolute;
+    left: 50%;
+    margin-left: -4px;
+  }
+  button {
+    width: 45%;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 0;
+    font-size: 16px;
+    border: none;
+    color: #fff;
+    background-color: #15afff;
+    margin-top: 5px;
+  }
+  button:nth-child(2) {
+    margin-left: 10%;
+  }
+}

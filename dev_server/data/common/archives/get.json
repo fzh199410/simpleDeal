@@ -1,0 +1,8 @@
+{
+	"code": 200,
+	"data|0-8": [{
+		"xm": "@cword(2,4)",
+		"sfzh": "@string('number', 18)",
+		"zp": "/assets/images/@string('number', 18).jpg"
+	}]
+}

@@ -1,0 +1,13 @@
+{
+  "code": 200,
+  "success": true,
+  "data|3-5": [
+    {
+    "name": "@cword(2, 3)",
+    "id|0-2": 100,
+    "unit": "四川省公安局",
+    "id": "@string('number', 8)",
+    "type": 3
+    }
+]
+}

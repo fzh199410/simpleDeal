@@ -1,0 +1,23 @@
+.main {
+    font-size: 16px;
+    > .footer {
+        height: 227px;
+        background: #495066;
+        & .links {
+            text-align: center;
+            padding: 3em 0;
+            > a {
+                color: #eee;
+                display: inline-block;
+            }
+            > a:nth-child(1),> a:nth-child(2),> a:nth-child(3){
+                margin-right: 3em;
+            }
+        }
+        > p {
+            text-align: center;
+            color: #eee;
+        }
+    }
+
+}

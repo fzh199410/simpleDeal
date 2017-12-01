@@ -1,0 +1,2 @@
+window.LoggerScope = '*';
+require('./index');

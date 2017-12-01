@@ -1,0 +1,17 @@
+{
+    "success": true,
+    "data|5-10": {
+        "id": 1,
+        "name": "泽荣战猎萨",
+        "sid": "510109176010012316",
+        "tag": [
+            "贫穷",
+            "两劳一少"
+        ],
+        "warningCount|50-300": 1,
+        "warningIntegral|50-300": 1,
+        "level": "B1",
+        "unit": "马尔康县公安局",
+        "responsibility": "吴可农"
+    }
+}

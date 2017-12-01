@@ -1,0 +1,27 @@
+{
+  "code": 200,
+  "success": true,
+  "data": {
+    "version": "1",
+    "reqno": "20170801114244123456",
+    "phonenum": "15082554045",
+    "begintime": "20170801000000",
+    "endtime": "20170801235959",
+    "retmaxvidnumber": 3,
+    "reserved": "",
+    "resultcode": "00",
+    "resultmsg": "处理成功",
+    "items": [
+      {
+        "vidseqno": "20170801114244123456_1",
+        "vidbegintime": "20170801091010",
+        "videndtime": "20170801153030"
+      },
+      {
+        "vidseqno": "20170801114244123456_2",
+        "vidbegintime": "20170801125900",
+        "videndtime": "20170801224530"
+      }
+    ]
+  }
+}

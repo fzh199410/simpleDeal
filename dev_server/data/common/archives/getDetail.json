@@ -1,0 +1,63 @@
+{
+    "code": 200,
+    "data": {
+        "id|100-10000": 1, 
+        "xm": "@cword(2,4)",
+        "sfzh": "@string('number', 18)",
+        "zp": "/assets/images/@string('number', 18).jpg",
+        "xb|1": ["男", "女"],
+        "mz": "藏族",
+        "csrq": "@date('yyyy.MM.dd')",
+        "bq": "重点人,涉藏,贫困,富裕,牛逼",
+
+        "hjszd": "@cword(4, 8)",
+        "sf": "@cword(2)省",
+        "sz": "@cword(2, 5)市",
+        "qx": "@cword(2, 5)县",
+        "xzpcs": "@cword(2, 5)派出所",
+
+        "lkyy": "@cword(3, 8)",
+        "lkzrr": "@cword(2, 5)",
+        "lkrq": "@date('yyyy-MM-dd')",
+        "lkjb": "@string('ABCD', 1)类",
+        "lkzrdw": "@cword(2, 5)",
+        "zrrsj": "@string('number', 11)",
+
+        "swzc_list|0-2": [{
+            "zclb|1": ["房产", "门面", "宅基地"],
+            "mcdz": "@cword(4, 15)",
+            "lrdw": "@cword(4, 8)",
+            "lrsj": "@date('yyyy-MM-dd')"
+        }],
+
+        "wxzc_list|0-2": [{
+            "zcmc|1": ["游戏帐号", "股票", "信托", "专利"],
+            "zsbh": "@string('lower', 16)",
+            "jyms": "@cword(10, 30)",
+            "lrdw": "@cword(4, 8)",
+            "lrsj": "@date('yyyy-MM-dd')"
+        }],
+
+        "jtgj_list|0-2": [{
+            "lb|1": ["自行车", "摩托车", "电瓶车", "汽车"],
+            "pzhm": "@string('number', 8)",
+            "cxcph": "@string('upper', 6)",
+            "zwsdw": "@string('number', 1)@string('座吨', 1)",
+            "lrdw": "@cword(4, 8)",
+            "lrsj": "@date('yyyy-MM-dd')"
+        }],
+
+        "gzqk_list|0-2": [{
+            "fwcsmc": "@cword(4, 8)",
+            "zwzw": "@cword(2-3)",
+            "kssj": "@date('yyyy-MM-dd')",
+            "jssj": "@date('yyyy-MM-dd')",
+            "sspcs": "@cword(2, 5)派出所"
+        }],
+
+        "wxh": "@string('lower', 5,10)",
+        "wbh": "@string('lower', 5,10)",
+        "qqh": "@string('number', 7,12)",
+        "qtxnsf": "@string('lower', 5, 10)"
+    }
+}

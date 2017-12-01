@@ -1,0 +1,20 @@
+.login-sign-frame {
+  width: 330px;
+  height: 440px;
+  background: rgba(255,255,255,0.4);
+  ul {
+    width: 100% ;
+    list-style: none;
+    li {
+      width: 50%;
+      display: inline-block;
+      font-size: 20px;
+      color: #111;
+      border-bottom: 1px solid rgb(160,160,160);
+    }
+    li.active {
+      color: rgb(54,138,229);
+      border-bottom: 2px solid rgb(54,138,229);
+    }
+  }
+}

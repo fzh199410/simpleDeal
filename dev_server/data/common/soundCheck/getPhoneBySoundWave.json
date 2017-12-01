@@ -1,0 +1,28 @@
+{
+  "code": 200,
+  "success": true,
+  "data": {
+    "version": "1",
+    "reqno": "20170801114244124000",
+    "phonenum": "18181818181",
+    "begintime": "20170801000000",
+    "endtime": "20170801235959",
+    "vidseqno": "20170801114244123456_2",
+    "retmaxnewphonenumber": 5,
+    "reserved": "",
+    "resultcode": "00",
+    "resultmsg": "处理成功",
+    "items": [
+      {
+        "phonenum": 18111111111,
+        "score": 0.6,
+        "calltime": 20170801114244
+      },
+      {
+        "phonenum": 18111111112,
+        "score": 0.55,
+        "calltime": 20170801114244
+      }
+    ]
+  }
+}

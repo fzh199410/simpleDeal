@@ -1,0 +1,148 @@
+.crousel {
+  .pic1 {
+    background: url(../../../assets/images/banner1.jpg) no-repeat;
+  }
+
+  .pic2 {
+    background: url(../../../assets/images/banner2.jpg) no-repeat;
+  }
+
+  .course-list {
+    width: 100%;
+    position: relative;
+    height: 600px;
+
+    .pic {
+      width: 100%;
+      height: 100%;
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+  }
+  .crousel-box {
+    text-align: center;
+    height: 600px;
+    width: 100%;
+
+    .item-box {
+      position: relative;
+      z-index: 22;
+      width: 100%;
+      height: 100%;
+      margin: 0px auto;
+
+      .sequence-item {
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        font-size: 0px;
+      }
+
+      .sequence-item a {
+        display: block;
+        width: 100%;
+        font-size: 0px;
+        height: 100%
+      }
+
+      .sequence-item img {
+        width: 100%;
+        height: 100%
+      }
+
+    }
+
+    .pagination {
+      position: relative;
+      z-index: 23;
+      text-align: center;
+      width: 100%;
+      font-size: 0px;
+      top: -90px;
+
+      &.flatline li {
+        width: 40px;
+        height: 4px;
+        margin-right: 10px;
+        background: rgba(255, 255, 255, 0.2);
+        padding: 0px
+      }
+
+      &.flatline li em {
+        display: none
+      }
+
+      &.flatline li.active {
+        background: #fff
+      }
+
+      &.flatline li.active .icon-home_lunbo1,
+      &.flatline li.active .icon-home_lunbo2 {
+        display: none
+      }
+
+      li {
+        display: inline-block;
+        cursor: pointer;
+        margin-right: 10px;
+
+        em {
+          color: #fff;
+          font-size: 12px;
+
+          &.icon-home_lunbo1 {
+            display: none
+          }
+
+        }
+
+        &.active .icon-home_lunbo1 {
+          display: block
+        }
+
+        &.active .icon-home_lunbo2 {
+          display: none
+        }
+
+      }
+
+    }
+
+
+    .pager-box {
+      .arrow {
+        padding: 20px 4px;
+        position: static;
+        height: 74px;
+        -webkit-transition: background-color 0.3s ease 0s;
+        transition: background-color 0.3s ease 0s;
+
+        &:hover {
+          background-color: transparent;
+          background-color: rgba(0, 0, 0, 0.3);
+          filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#4D000000, endColorstr=#4D000000);
+          zoom: 1
+        }
+
+      }
+
+      .prev {
+        left: 0px;
+        z-index: 24
+      }
+
+      .next {
+        right: 0px;
+        z-index: 24
+      }
+
+    }
+
+  }
+}

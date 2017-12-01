@@ -1,0 +1,202 @@
+.home {
+    color: #666;
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+
+    .banner2 {
+        // margin: 119px 0 115px 0;
+    }
+
+    .banner2-content {
+        display: table;
+        width: 100%;
+
+        .item {
+            display: table-cell;
+            text-align: center;
+            padding: 119px 0 115px 0;
+            position: relative;
+            cursor: pointer;
+            width: 25%;
+
+            &:after {
+                content: "";
+                position: absolute;
+                width: 1px;
+                height: 40%;
+                top: 50%;
+                margin-top: -70px;
+                border-right: 1px dashed #d2d2d2;
+                right: 0px;
+            }
+
+            &:last-child {
+                &:after {
+                    display: none;
+                }
+
+            }
+
+            span {
+                width: 88px;
+                height: 86px;
+                text-align: center;
+                display: inline-block;
+                margin-bottom: 20px;
+
+                &.inco1 {
+                    background: url(../../../assets/images/banner2-01.png) no-repeat;
+                }
+
+                &.inco2 {
+                    background: url(../../../assets/images/banner2-02.png) no-repeat;
+                }
+
+                &.inco3 {
+                    background: url(../../../assets/images/banner2-03.png) no-repeat;
+                }
+
+                &.inco4 {
+                    background: url(../../../assets/images/banner2-04.png) no-repeat;
+                }
+
+            }
+
+            p {
+                font-size: 20px;
+            }
+
+        }
+
+    }
+
+    .banner-content {
+        .wrapMin {
+            display: table;
+            width: 100%;
+            padding: 0 10em;
+        }
+
+        h3 {
+            color: #368ae5;
+            font-size: 48px;
+            font-weight: normal;
+            padding: 75px 0 120px 0;
+        }
+
+    }
+
+    .banner3 {
+        background: #fafafa;
+        text-align: center;
+
+        .items {
+            display: table-cell;
+            text-align: center;
+            padding-bottom: 68px;
+
+            img {
+                width: 366px;
+                height: 252px;
+            }
+
+            h3 {
+                font-size: 20px;
+                padding: 30px 0 15px 0;
+            }
+
+            span {
+                font-size: 16px;
+            }
+
+        }
+
+    }
+
+    .banner4 {
+        table {
+            width: 100%;
+        }
+
+        tr {
+            td {
+                width: 50%;
+                text-align: left;
+                padding-bottom: 40px;
+
+                &:last-child {
+                    div {
+                        display: inline-block;
+                        float: right;
+                    }
+
+                }
+
+                p {
+                    font-size: 18px;
+                    font-weight: bold;
+
+                    em {
+                        width: 28px;
+                        height: 33px;
+                        display: inline-block;
+                        text-align: center;
+                        line-height: 33px;
+                        margin-right: 20px;
+                        background: url(../../../assets/images/num-bg.png) no-repeat;
+                    }
+
+                }
+
+                span {
+                    font-size: 16px;
+                    color: #333333;
+                }
+
+            }
+
+        }
+
+    }
+
+    .banner5 {
+        background: #f6f6f6;
+
+        h3 {
+            color: #000;
+        }
+
+        .items {
+            margin: 0 50px 70px 0;
+            display: inline-block;
+        }
+
+        .img {
+            width: 75px;
+            height: 75px;
+            background: #ccc;
+            border-radius: 50px;
+            float: left;
+            margin-right: 10px;
+        }
+
+        .msg {
+            height: 75px;
+            float: left;
+            color: #000;
+
+            p {
+                font-size: 16px;
+                margin-top: 10px;
+            }
+
+            span {
+                font-size: 12px;
+            }
+
+        }
+
+    }
+
+}
