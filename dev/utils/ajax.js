@@ -3,6 +3,7 @@ import axios from 'axios';
 import { Tip } from 'mtui/index';
 import LoadingModal from 'ui/loadingModal/LoadingModal';
 import {browserHistory} from 'react-router';
+import emitter from 'utils/emitter';
 
 import { isString, isArray, isBlank, isEmpty, isNotEmpty, isNotBlank } from './util';
 import { setSession, getSession, clearLocal } from './storage';
@@ -70,10 +71,12 @@ axios.interceptors.response.use(function (response) {
             return Promise.reject(response);
         }
     }
-    if(data.code === 401 && !config.notCheckLogin) {
+    if(data.code === 332 && !config.notCheckLogin) {
         const msg = '您未登陆系统或登陆已失效';
         Tip.error(msg);
-        browserHistory.push('/login');
+        setSession('user', null);
+        emitter.emit('UPDATE_USER_INFO');
+        browserHistory.push('/main');
         return Promise.reject(response);
     }
 

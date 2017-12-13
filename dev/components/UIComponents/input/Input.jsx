@@ -60,7 +60,7 @@ export default class Input extends Component {
     }
 
     render() {
-        const {size, prefix, suffix, type, onPressEnter, className, validateInfo, onChange, defaultValue, value, disabled, ...other} = this.props;
+        const {size, prefix, suffix, style, type, onPressEnter, className, validateInfo, onChange, defaultValue, value, disabled, ...other} = this.props;
         let cName = ['T-input'];
         if(className) {
             cName.push(className);
@@ -87,7 +87,7 @@ export default class Input extends Component {
         }
 
         return (
-            <span className={cName.join(' ')}>
+            <span className={cName.join(' ')} style={style}>
                 {prefix ? <span className="T-input-prefix">{prefix}</span> : null}
                 {type === 'textarea' ? <textarea disabled={disabled} {...obj} {...other} onChange={this.handleChange.bind(this)}></textarea> :
                     <input type={type} disabled={disabled} {...obj} {...other} onChange={this.handleChange.bind(this)} />}

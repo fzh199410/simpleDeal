@@ -247,6 +247,22 @@ export function insert_flg(str, flg, sn){
     return newstr;
 }
 
+export function getTop(e){
+    let offset = e.offsetTop;
+    if (e.offsetParent !== null) {
+        offset += getTop(e.offsetParent);
+    }
+    return offset;
+}
+
+export function getLeft(e) {
+    let offset = e.offsetLeft;
+    if (e.offsetParent !== null) {
+        offset += getLeft(e.offsetParent);
+    }
+    return offset;
+}
+
 export function crousel(boxId, needPagination, defaultPagination, paginationEvent, needOption, crossIn, hoverDelay, _callback) {
     // 填充数据
     var box = $(boxId);

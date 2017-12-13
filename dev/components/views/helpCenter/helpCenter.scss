@@ -12,9 +12,10 @@
     border: 1px solid rgb(238,238,238);
     margin-top: 24px;
     margin-bottom: 150px;
-    font-size: 18px;
+    font-size: 16px;
     .leftPart {
       background-color: rgb(249,249,249);
+      overflow-y: scroll;
       .title {
         height: 80px;
         color: #111;
@@ -25,9 +26,8 @@
       }
       ul {
         list-style: none;
-        overflow-y: scroll;
         li {
-          height: 44px;
+          min-height: 44px;
           width: 100%;
           text-align: left;
           line-height: 44px;

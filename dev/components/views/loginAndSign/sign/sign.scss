@@ -1,0 +1,74 @@
+.sign-frame {
+  width: 100%;
+  height: auto;
+  padding-top: 20px;
+  .input-area {
+    width: 90%;
+    margin-left: 5%;
+    margin-bottom: 10px;
+    > label {
+      display: inline-block;
+      width: 30%;
+      text-align: right;
+      vertical-align: top;
+      position: relative;
+      top: 6px;
+    }
+    .input-box {
+      width: 70%;
+      display: inline-block;
+      text-align: left;
+      > .T-input {
+        border: none;
+        background-color: transparent;
+        width: 100%;
+      }
+      input{
+        padding-left: 8px;
+        border: 1px solid #c4daee;
+        border-radius: 4px;
+        height: 30px;
+        line-height: 30px;
+        font-size: 14px;
+        box-sizing: border-box;
+        &::-webkit-input-placeholder { color:#9ea2a5;}
+      }
+      > .verify {
+        display: inline-block;
+        width: 45%;
+        vertical-align: middle;
+        height: 30px;
+        background-color: transparent;
+        margin-left: 2%;
+        text-align: center;
+        > img {
+          width: 100%;
+          height: inherit;
+          border: 1px solid #c4daee;
+          border-radius: 4px;
+          cursor: pointer;
+        }
+      }
+      .btn {
+        width: calc(100% - 8px);
+        margin-left: 4px;
+        background-color: #498bdf;
+        color: #eee;
+        border-radius: 4px;
+        height: 30px;
+        line-height: 30px;
+        font-size: 18px;
+      }
+      .error {
+        color: indianred;
+        box-sizing: border-box;
+        padding-left: 5px;
+      }
+    }
+  }
+  .input-area:nth-child(6) > .input-box {
+    > .T-input {
+      width: 50%;
+    }
+  }
+}

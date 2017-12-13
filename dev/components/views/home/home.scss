@@ -1,6 +1,5 @@
 .home {
     color: #666;
-    font-size: 20px;
     text-align: center;
     position: relative;
 
@@ -76,6 +75,16 @@
             display: table;
             width: 100%;
             padding: 0 10em;
+            div {
+                cursor: pointer;
+            }
+            span {
+                max-width: 450px;
+                display: -webkit-box;
+                -webkit-box-orient: vertical;
+                -webkit-line-clamp: 2;
+                overflow: hidden;
+            }
         }
 
         h3 {
@@ -173,10 +182,11 @@
         }
 
         .img {
-            width: 75px;
-            height: 75px;
-            background: #ccc;
-            border-radius: 50px;
+            & > img {
+                width: 75px;
+                height: 75px;
+                border-radius: 50px;
+            }
             float: left;
             margin-right: 10px;
         }

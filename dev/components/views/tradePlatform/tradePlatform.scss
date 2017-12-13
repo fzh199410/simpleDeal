@@ -1,0 +1,73 @@
+.trade-platform {
+  width: 100%;
+  .type-field-box {
+    width: 70%;
+    border: 1px solid #dbdcdd;
+    padding: 1em;
+    margin: 3em 0 3em 15%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    .type-field {
+      width: calc(33% - 6px);
+      height: 400px;
+      padding: 2em 0;
+      text-align: center;
+      margin: 1em 0;
+      border: 1px solid #498bdd;
+      border-radius: 8px;
+      position: relative;
+      display: inline-block;
+      p {
+        margin-top: 2em;
+        label {
+          display: inline-block;
+          background: #498bdf;
+          color: #fff;
+          line-height: 24px;
+          font-size: 18px;
+          padding: 4px 8px;
+          border-bottom-left-radius: 8px;
+          border-top-left-radius: 8px;
+        }
+        button {
+          background: #498bdf;
+          color: #fff;
+          border-radius: 16px;
+          height: 30px;
+          line-height: 30px;
+          padding: 0 1em;
+        }
+      }
+      img {
+        width: 50%;
+      }
+      &:not(:first-child) {
+        margin-left: 8px;
+      }
+      .title {
+        width: 50%;
+        font-size: 20px;
+        color: #498bdd;
+        background-color: #fff;
+        position: absolute;
+        top: -15px;
+        left: 50%;
+        transform: translate(-50%);
+      }
+    }
+  }
+  .tradingList {
+    width: 70%;
+    border: 1px solid #dbdcdd;
+    margin: 3em 0 3em 15%;
+    text-align: center;
+    .title {
+      text-align: left;
+      font-size: 20px;
+      color: #498bdf;
+      padding: 1em;
+      border-bottom: 1px solid #dbdcdd;
+    }
+  }
+}

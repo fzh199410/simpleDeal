@@ -20,6 +20,7 @@ export default class Footer extends Component {
                     <a href="javascript:void(null)">在线客服</a>
                 </div>
                 <p>©2010-2017 www.suyin.com 极简(中国)交易平台</p>
+                <img width={150} src={require('assets/images/交流群.png')} alt=""/>
             </div>
         );
     }

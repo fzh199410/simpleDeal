@@ -1,0 +1,70 @@
+.T-modal-bg{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0,0,0, 0.4);
+  z-index: 1000;
+}
+.T-modal-content{
+  border-radius: 16px;
+  background: rgba(32,47,98,.9);
+  width: 520px;
+  height: 340px;
+  color: #d8d8d8;
+  position: fixed;
+  z-index: 1000;
+  top: 50%;
+  left: 50%;
+  margin: -170px 0 0 -260px;
+  .title{
+    color: rgb(21,175,255);
+    height: 80px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 80px;
+    border-bottom: 1px solid rgb(21,175,255);
+  }
+  .bodys{
+    font-size: 20px;
+    text-align: center;
+  }
+  .button-box{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    button{
+      width: 50%;
+      height: 60px;
+      line-height: 50px;
+      border-radius: 0;
+      font-size: 16px;
+      border: none;
+      color: #fff;
+    }
+    button {
+      display: inline-block;
+      padding: 5px 10px;
+      background: #fff;
+      color: #fffc;
+      font-size: 16px;
+      border: 1px solid transparent;
+      border-radius:2px;
+      text-align:center;
+      cursor: pointer;
+      vertical-align: middle;
+      -webkit-user-select: none;
+      user-select: none;
+    }
+    .cancel{
+      background-color: rgb(39,86,171);
+      border-bottom-right-radius: 16px;
+    }
+    .soure{
+      background-color: rgb(21,175,265);
+      border-bottom-left-radius: 16px;
+
+    }
+  }
+}

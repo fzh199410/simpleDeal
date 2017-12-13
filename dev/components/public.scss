@@ -16,9 +16,6 @@ $hcolor:#f2f6f9;//hover 的背景色
 
 //阴影
 $boxshadow:0 0 10px rgba(0,0,0,.1);
-::-webkit-scrollbar {width: 5px; height: 12px; background-color: #1e2f51!important; }
-::-webkit-scrollbar-thumb{ background: #0E244C;}
-::-webkit-scrollbar-track{ background: #1e2f51;}
 @mixin error{
 	color: $red;
 	padding: 5px 0;
@@ -72,3 +69,66 @@ body{
 #mt-div-tips {
 	z-index:  9999999999;
 }
+
+.tableWrap {
+	max-width: 100%;
+	overflow: auto;
+	position: relative;
+	&::-webkit-scrollbar-thumb {
+		background: #2d61bf;
+	}
+	.text-ellipsis {
+		overflow: hidden;
+		white-space: nowrap;
+		text-overflow: ellipsis;
+	}
+}
+
+.table-us {
+	table {
+		width: 100%;
+		td {
+			padding: 10px;
+			img{ width: 35px; height: 35px; border: none; background: #1B2741;}
+		}
+	}
+	.fieldName {
+		font-weight: bold;
+		color: #F2F2F2;
+		margin-top: 10px;
+	}
+
+	> table {
+		color: #333;
+		padding: 5px;
+		th {
+			color: #498bdd;
+			background-color: #f3f7fb;
+		}
+		td,th {
+			height: 77px;
+			padding: 2px 5px;
+			border-bottom: 1px solid #dbdcdd;
+		}
+		th {
+			font-size: 18px;
+		}
+		td {
+			font-size: 16px;
+		}
+		tr:nth-child(even) {
+			background-color: #f7f8f9;
+		}
+	}
+
+	.operate-btn {
+		background: #498bdf;
+		color: #fff;
+		border-radius: 16px;
+		height: 30px;
+		line-height: 30px;
+		padding: 0 1em;
+	}
+
+}
+

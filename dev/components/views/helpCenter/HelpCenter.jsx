@@ -12,6 +12,12 @@ export default class HelpCenter extends Component {
         };
     }
 
+    componentDidMount() {
+        this.setState({
+            selectedIndex: +this.props.location.query.active || 0
+        });
+    }
+
     selectQuestion(index) {
         this.setState({
             selectedIndex: index

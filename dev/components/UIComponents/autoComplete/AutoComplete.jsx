@@ -70,7 +70,6 @@ export default class AutoComplete extends Component {
     }
 
     handleSelect(value) {
-        console.log(value);
         this.props.onSelectCb(value);
         this.hide();
     }
